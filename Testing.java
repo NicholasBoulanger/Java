@@ -25,7 +25,8 @@ public class Testing {
 		
 		System.out.println("Hello " + input);
 		
-
+		//Sleep Function:
+		
 		try
 		{
 		    Thread.sleep(10000);
@@ -35,6 +36,7 @@ public class Testing {
 		    Thread.currentThread().interrupt();
 		}
 		
+		//Sleep Function test:
 		
 		System.out.println("Thank you for waiting" + input);
 		
