@@ -40,9 +40,19 @@ public class Testing {
 		
 		System.out.println("Thank you for waiting" + input);
 		
+		//Alternative:
 		
+		System.out.println("Before Test");
 		
+		try {
+			
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("After Test");
 		
+		//End alternative method
 		
 	}
 
